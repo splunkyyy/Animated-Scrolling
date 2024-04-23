@@ -1,3 +1,5 @@
+/* JS for splash screen */
+
 let intro = document.querySelector('.intro-logo');
 let logo = document.querySelector('.logo-header');
 let logoSpan = document.querySelectorAll('.logo');
@@ -49,6 +51,7 @@ window.addEventListener('DOMContentLoaded', ()=>{
     })
 }) */
 
+/* JS for scroll animation */
 
 const observer = new IntersectionObserver((entries) =>{
     entries.forEach((entry) =>{
